@@ -52,4 +52,4 @@ Cobertura de testes:
 Gerar relatórios
 - pipenv run pytest --cov jbs
 
-crias no ci travis ou ga
+Criar no ci travis ou ga
