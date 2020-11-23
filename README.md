@@ -3,6 +3,7 @@ Projeto Web para desenvolvimento de uma pagina com Django em Python
 
 Aplicação disponivel no [Heroku](https://jbspro.herokuapp.com/)
 
+[![Build Status](https://travis-ci.org/JosemarBrito/Projeto-Django.svg?branch=main)](https://travis-ci.org/JosemarBrito/Projeto-Django)
 [![codecov](https://codecov.io/gh/JosemarBrito/Projeto-Django/branch/main/graph/badge.svg)](https://codecov.io/gh/JosemarBrito/Projeto-Django)
 [![Updates](https://pyup.io/repos/github/JosemarBrito/Projeto-Django/shield.svg)](https://pyup.io/repos/github/JosemarBrito/Projeto-Django/)
 [![Python 3](https://pyup.io/repos/github/JosemarBrito/Projeto-Django/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/Projeto-Django/)
@@ -53,3 +54,4 @@ Gerar relatórios
 - pipenv run pytest --cov jbs
 
 Criar no ci travis ou ga
+configurando postgres
