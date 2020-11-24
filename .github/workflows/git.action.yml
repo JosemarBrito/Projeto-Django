@@ -9,6 +9,15 @@ jobs:
       PIPENV_IGNORE_VIRTUALENVS: 1
     runs-on: ubuntu-latest
 
+    services:
+      postgres:
+        image: postgres:11.5
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports: ['5432:5432']
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
@@ -22,6 +31,10 @@ jobs:
         pipenv sync --dev
         cp contrib/env-sample .env
     - name: Lint with flake8
+
+      berfore_script:
+        psql -c "CREATE DATABASE testdb;" -U postgres
+
       run: |
         pipenv run flake8 .
         pipenv run pytest --cov=jbs
