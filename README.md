@@ -54,4 +54,4 @@ Gerar relatórios
 - pipenv run pytest --cov jbs
 
 Criar no ci travis ou ga
-configurando postgres
+**configurando postgres
