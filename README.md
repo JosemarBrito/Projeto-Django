@@ -55,5 +55,4 @@ Gerar relatórios
 
 Criar no ci travis ou ga
 **configurando postgres
-configuraço s3
-models
+configuraço
