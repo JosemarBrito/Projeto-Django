@@ -25,13 +25,13 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="c5b0ebf8-0596-4c78-9a51-c328c3ae2308">
-        <schema name="main" object-types="view, constraint, column, dataset trigger, table, index" />
+        <schema name="main" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c5b0ebf8-0596-4c78-9a51-c328c3ae2308">
-      <console name="jbs.sqlite" type="STANDARD" schema="main" session="Main" />
+      <console name="jbs.sqlite" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
