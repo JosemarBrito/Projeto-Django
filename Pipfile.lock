@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4a1c7c0730cd9234b1e1472c29217e2681a36438d04cbd5b03eb32e8652f24bf"
+            "sha256": "85a253411b30fc007cefcf33bed3ebcf61fecb801f8a00b91a6d7db25ddb17d3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -67,7 +67,16 @@
                 "sha256:5c866205f15e7a7123f1eec6ab939d22d5bde1416635cab259684af66d8e48a2",
                 "sha256:edb10b5c45e7e9c0fb1dc00b76ec7449aca258a39ffd613dbd078c51d19c9f03"
             ],
+            "index": "pypi",
             "version": "==3.1.4"
+        },
+        "django-debug-toolbar": {
+            "hashes": [
+                "sha256:a1ce0665f7ef47d27b8df4b5d1058748e1f08500a01421a30d35164f38aaaf4c",
+                "sha256:c97921a9cd421d392e7860dc4b464db8e06c8628df4dc58fedab012888c293c6"
+            ],
+            "index": "pypi",
+            "version": "==3.1.1"
         },
         "django-s3-folder-storage": {
             "hashes": [
@@ -112,6 +121,7 @@
                 "sha256:05af3bb85d320377db281cf254ab050e1a7ebcbf5410685a9a407e18a1f81236",
                 "sha256:eb41423378682dadb7166144a4926e443093863024de508ca5c9737d6bc08376"
             ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==20.7"
         },
         "pluggy": {
@@ -372,6 +382,7 @@
                 "sha256:05af3bb85d320377db281cf254ab050e1a7ebcbf5410685a9a407e18a1f81236",
                 "sha256:eb41423378682dadb7166144a4926e443093863024de508ca5c9737d6bc08376"
             ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==20.7"
         },
         "pluggy": {
@@ -437,14 +448,6 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==2.25.0"
-        },
-        "six": {
-            "hashes": [
-                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
-                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==1.15.0"
         },
         "toml": {
             "hashes": [
