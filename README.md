@@ -58,3 +58,4 @@ Criar no ci travis ou ga
 configuraço s3
 configurado banco de dados com Sqlite
 COnfigurado Backup do Postresql
+corrigido
