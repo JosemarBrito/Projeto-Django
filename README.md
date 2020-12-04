@@ -64,4 +64,3 @@ configurado banco de dados com Sqlite
 COnfigurado Backup do Postresql
 
 Configurado Sentry ( pipenv install sentry-sdk )
-ok
