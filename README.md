@@ -59,3 +59,10 @@ configuraço s3
 configurado banco de dados com Sqlite
 COnfigurado Backup do Postresql
 corrigido
+AKIARZD4SKDJZGOO7Q75
+
+Utilizado 
+
+[Twiter Bootstrap](https://getbootstrap.com/)
+
+[Simulador](https://layoutit.com/pt)
